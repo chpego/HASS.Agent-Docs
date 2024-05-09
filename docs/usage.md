@@ -38,7 +38,7 @@ Example configuration of a shutdown command in Home Assistant, used in combinati
 ```yaml
 - platform: wake_on_lan
   name: "TEST_W10_x64_01"
-  mac: "00:00:00:00:00:00"
+  mac: "00:01:02:03:04:05"
   host: 10.0.0.5
   broadcast_address: 10.0.0.255
   turn_off:
