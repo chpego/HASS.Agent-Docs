@@ -74,7 +74,7 @@ tts_test:
 ```yaml
 - platform: wake_on_lan
   name: "your_pc_name"
-  mac: "00-00-00-00-00-00"
+  mac: "00:01:02:03:04:05"
   host: 10.0.0.5
   broadcast_address: 10.0.0.255
   turn_off:
