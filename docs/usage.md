@@ -42,9 +42,9 @@ Example configuration of a shutdown command in Home Assistant, used in combinati
   host: 10.0.0.5
   broadcast_address: 10.0.0.255
   turn_off:
-    service: switch.turn_on
+    service: button.press
     data:
-      entity_id: switch.test_w10_x64_01_cmd_shutdown
+      entity_id: button.test_w10_x64_01_cmd_shutdown
 ```
 
 
