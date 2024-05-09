@@ -78,9 +78,9 @@ tts_test:
   host: 10.0.0.5
   broadcast_address: 10.0.0.255
   turn_off:
-    service: switch.turn_on
+    service: button.press
     data:
-      entity_id: switch.your_pc_hass_agent_shutdown_switch
+      entity_id: button.your_pc_hass_agent_shutdown
 ```
 
 Alternative version: use a `Hibernate Command` to put your PC in hibernation instead.
